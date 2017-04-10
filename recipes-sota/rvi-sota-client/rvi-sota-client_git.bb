@@ -4,7 +4,7 @@ HOMEPAGE = "https://github.com/advancedtelematic/rvi_sota_client"
 LICENSE = "MPL-2.0"
 LIC_FILES_CHKSUM = "file://${S}/LICENSE;md5=65d26fcc2f35ea6a181ac777e42db1ea"
 
-inherit cargo systemd
+inherit cargo systemd ptest
 
 S = "${WORKDIR}/git"
 
@@ -134,6 +134,7 @@ crate://crates.io/void/1.0.2 \
 crate://crates.io/winapi/0.2.8 \
 crate://crates.io/winapi-build/0.1.1 \
 git://github.com/advancedtelematic/rvi_sota_client \
+file://run-ptest \
 "
 
 SRC_URI[index.md5sum] = "79f10f436dbf26737cc80445746f16b4"

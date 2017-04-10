@@ -1,0 +1,8 @@
+#!/bin/sh
+
+TESTNAME=rvi-sota-client-service-active
+if [ `systemctl is-active sota-client` = "active" ]; then
+	echo "PASS: ${TESTNAME}"
+else
+	echo "FAIL: ${TESTNAME}"
+fi
