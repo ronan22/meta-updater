@@ -1,3 +1,3 @@
-BBCLASSEXTEND = "native"
+BBCLASSEXTEND_append_sota = " native"
 
-DEPENDS_append_class-native = " glib-networking-native"
+DEPENDS_append_class-native_sota = " glib-networking-native"

@@ -1,4 +1,4 @@
-PACKAGES_append_class-native = "util-linux-agetty-native util-linux-fdisk-native util-linux-cfdisk-native util-linux-sfdisk-native \
+PACKAGES_append_class-native_sota = "util-linux-agetty-native util-linux-fdisk-native util-linux-cfdisk-native util-linux-sfdisk-native \
              util-linux-swaponoff-native util-linux-losetup-native util-linux-umount-native \
              util-linux-mount-native util-linux-readprofile-native util-linux-uuidd-native \
              util-linux-uuidgen-native util-linux-lscpu-native util-linux-fsck-native util-linux-blkid \
